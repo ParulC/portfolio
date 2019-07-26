@@ -12,6 +12,11 @@
 	align-items: center;
 }
 
+.wrapper {
+	width: 75%;
+	margin: 0 auto;
+}
+
 img {
 	max-width: 100%;
 	max-height: 100%;
@@ -29,3 +34,13 @@ header a {
 .menu a {
 	padding: 10px;
 }
+
+/**********Welcome Section************/
+.welcome-section {
+	background-color: green;
+}
+
+.welcome-image {
+	width: 40%;
+}
+
