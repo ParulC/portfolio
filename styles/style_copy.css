@@ -1,0 +1,104 @@
+/****General****/
+/*Border-box*/
+* { 
+		-moz-box-sizing: border-box; 
+		-webkit-box-sizing: border-box; 
+		box-sizing: border-box; 
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+	font-size: 1vw;	
+}
+
+p {
+	font-size: 1.2vw;
+}
+
+/*Making p font bigger for mobile*/
+@media only screen and (max-device-width: 480px) {
+	p {
+		font-size: 2.5vw;
+	}	
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+h1 {
+	font-size: 2.3vw;
+}
+
+/*Making h1 font bigger for mobile*/
+@media only screen and (max-device-width: 480px) {
+	h1 {
+		font-size: 2.5vw;
+	}	
+}
+
+
+h2 {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	color: #e60000;
+	font-size: 3vw;
+}
+
+h3 {
+	text-align: center;
+	font-size: 2vw;
+}
+
+/****Navigation Bar****/
+nav {
+	padding: 0.25% 2%; 
+	font-size: 1.5vw;
+}
+
+
+/*Nav bar on mobile - making text and padding bigger*/
+@media only screen and (max-device-width: 480px) {
+	nav {
+		padding: 3% 2.5%; 
+		font-size: 2.5vw;
+	}		
+}
+
+.menu a {
+	text-decoration: none;
+	color: #e60000;
+}
+
+.menu ul {
+	padding: 0;
+}
+
+.menu ul li {
+	list-style: none;
+}
+
+.menu ul a {
+	text-decoration: none;
+	padding: 10px;
+	color: black;
+}
+
+/*Setting logo height*/
+nav img {
+	height: 10vh;
+}
+
+/*Making logo height smaller for mobile*/
+@media only screen and (max-device-width: 480px) {
+	nav img {
+		height: 6vh;
+	}
+}
