@@ -20,11 +20,20 @@
 img {
 	max-width: 100%;
 	max-height: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*******Navigation Bar*************/
+header {
+	background-color: gray;
+	padding: 10px 15px;
+}
+
 header a {
 	text-decoration: none;
+	color: white;
 }
 
 .menu li {
@@ -33,6 +42,12 @@ header a {
 
 .menu a {
 	padding: 10px;
+}
+
+/**********Sections in General***********/
+.section-heading {
+	text-align: center;
+	margin: 5% 0;
 }
 
 /**********Welcome Section************/
@@ -44,3 +59,30 @@ header a {
 	width: 40%;
 }
 
+.welcome-image, .welcome-message {
+	margin: 5%;
+}
+
+/***********Projects Section*************/
+
+.projects {
+	margin: 50px 0;
+}
+
+.single-project {
+	background-color: #999;
+	width: 30%;
+}
+
+.single-project img {
+	text-align: center;
+}
+
+.project-spacing {
+	justify-content: space-around;
+	margin-bottom: 50px;
+}
+
+#project-title {
+	text-align: center;
+}
