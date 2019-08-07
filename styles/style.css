@@ -9,7 +9,7 @@
 .flex-container {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+/*	align-items: center;*/
 }
 
 .wrapper {
@@ -27,7 +27,7 @@ img {
 
 /*******Navigation Bar*************/
 header {
-	background-color: gray;
+	background-color: #262677;
 	padding: 10px 15px;
 }
 
@@ -51,17 +51,11 @@ header a {
 }
 
 /**********Welcome Section************/
-.welcome-section {
-	background-color: green;
+#welcome-section {
+/*	background-color: #262677;*/
+	padding: 5% 0;
 }
 
-.welcome-image {
-	width: 40%;
-}
-
-.welcome-image, .welcome-message {
-	margin: 5%;
-}
 
 /***********Projects Section*************/
 
@@ -76,6 +70,10 @@ header a {
 
 .single-project img {
 	text-align: center;
+}
+
+.single-project p {
+	margin: 3%;
 }
 
 .project-spacing {
